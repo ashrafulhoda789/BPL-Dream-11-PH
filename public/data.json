@@ -7,7 +7,7 @@
     "rating": 9.5,
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm medium",
-    "Price": 1200000
+    "Price": 1200
   },
   {
     "PlayerImg": "https://i.ibb.co.com/My0GJNmk/joe-root.webp",
@@ -17,7 +17,7 @@
     "rating": 9.2,
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm off break",
-    "Price": 1100000
+    "Price": 1100
   },
   {
     "PlayerImg": "https://i.ibb.co.com/39Hg6dwn/sakib-al-hasan.png",
@@ -27,7 +27,7 @@
     "rating": 9.4,
     "BattingStyle": "Left-hand bat",
     "BowlingStyle": "Slow left-arm orthodox",
-    "Price": 1150000
+    "Price": 11500
   },
   {
     "PlayerImg": "https://i.ibb.co.com/NcX68Vz/babar-azam-removebg-preview.png",
@@ -37,7 +37,7 @@
     "rating": 9.3,
     "BattingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm off break",
-    "Price": 1180000
+    "Price": 1180
   },
   {
     "PlayerImg": "https://i.ibb.co.com/NgP8LNCm/ben-stokes.png",
@@ -47,7 +47,7 @@
     "rating": 9.6,
     "BattingStyle": "Left-hand bat",
     "BowlingStyle": "Right-arm fast-medium",
-    "Price": 1250000
+    "Price": 12500
   },
   {
     "PlayerImg": "https://i.ibb.co.com/wZVQ7XW1/kane-williamson.png",

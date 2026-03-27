@@ -1,9 +1,28 @@
 import { Flag, UserRound } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 
-const Player = ({player}) => {
-    const {PlayerImg, PlayerName, PlayerCountry, PlayerType, rating, BattingStyle, BowlingStyle, Price} = player;
+const Player = ({ player, setCoin, coin }) => {
+    const { PlayerImg, PlayerName, PlayerCountry, PlayerType, rating, BattingStyle, BowlingStyle, Price } = player;
     // console.log(player);
+
+    const [isSelected, setIsSelected] = useState(false);
+
+    const handleChoosePlayer = () =>{
+        
+
+        let newCoin = coin - Price;
+        if(newCoin >= 0){
+            setCoin(coin - Price)
+        }
+        else{
+            alert("Not available coins");
+            return;
+        }
+
+        alert(`${PlayerName} is selected`)
+        setIsSelected(true);
+        
+    }
     return (
         <div >
             <div className="card bg-base-100 shadow-lg">
@@ -34,7 +53,8 @@ const Player = ({player}) => {
 
                     <div className="card-actions justify-between">
                         <p className='font-semibold'>Price: {Price}</p>
-                        <button className="btn">Choose Player</button>
+                        <button className="btn" onClick={() => handleChoosePlayer()} 
+                        disabled={isSelected} >{isSelected ? "Selected" : "Choose Player"}</button>
                     </div>
                 </div>
             </div>
