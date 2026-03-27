@@ -1,0 +1,62 @@
+[
+  {
+    "PlayerImg": "https://example.com/images/virat_kohli.jpg",
+    "PlayerName": "Virat Kohli",
+    "PlayerCountry": "India",
+    "PlayerType": "Batsman",
+    "rating": 9.5,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm medium",
+    "Price": 1200000
+  },
+  {
+    "PlayerImg": "https://example.com/images/joe_root.jpg",
+    "PlayerName": "Joe Root",
+    "PlayerCountry": "England",
+    "PlayerType": "Batsman",
+    "rating": 9.2,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm off break",
+    "Price": 1100000
+  },
+  {
+    "PlayerImg": "https://example.com/images/shakib_al_hasan.jpg",
+    "PlayerName": "Shakib Al Hasan",
+    "PlayerCountry": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "rating": 9.4,
+    "BattingStyle": "Left-hand bat",
+    "BowlingStyle": "Slow left-arm orthodox",
+    "Price": 1150000
+  },
+  {
+    "PlayerImg": "https://example.com/images/babar_azam.jpg",
+    "PlayerName": "Babar Azam",
+    "PlayerCountry": "Pakistan",
+    "PlayerType": "Batsman",
+    "rating": 9.3,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm off break",
+    "Price": 1180000
+  },
+  {
+    "PlayerImg": "https://example.com/images/ben_stokes.jpg",
+    "PlayerName": "Ben Stokes",
+    "PlayerCountry": "England",
+    "PlayerType": "All-Rounder",
+    "rating": 9.6,
+    "BattingStyle": "Left-hand bat",
+    "BowlingStyle": "Right-arm fast-medium",
+    "Price": 1250000
+  },
+  {
+    "PlayerImg": "https://example.com/images/kane_williamson.jpg",
+    "PlayerName": "Kane Williamson",
+    "PlayerCountry": "New Zealand",
+    "PlayerType": "Batsman",
+    "rating": 9.1,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm off break",
+    "Price": 1050000
+  }
+]
