@@ -1,6 +1,6 @@
 [
   {
-    "PlayerImg": "https://example.com/images/virat_kohli.jpg",
+    "PlayerImg": "https://i.ibb.co.com/GvdL5CDV/virat-kholi.webp",
     "PlayerName": "Virat Kohli",
     "PlayerCountry": "India",
     "PlayerType": "Batsman",
@@ -10,7 +10,7 @@
     "Price": 1200000
   },
   {
-    "PlayerImg": "https://example.com/images/joe_root.jpg",
+    "PlayerImg": "https://i.ibb.co.com/My0GJNmk/joe-root.webp",
     "PlayerName": "Joe Root",
     "PlayerCountry": "England",
     "PlayerType": "Batsman",
@@ -20,7 +20,7 @@
     "Price": 1100000
   },
   {
-    "PlayerImg": "https://example.com/images/shakib_al_hasan.jpg",
+    "PlayerImg": "https://i.ibb.co.com/39Hg6dwn/sakib-al-hasan.png",
     "PlayerName": "Shakib Al Hasan",
     "PlayerCountry": "Bangladesh",
     "PlayerType": "All-Rounder",
@@ -30,7 +30,7 @@
     "Price": 1150000
   },
   {
-    "PlayerImg": "https://example.com/images/babar_azam.jpg",
+    "PlayerImg": "https://i.ibb.co.com/sdtF0rnQ/babar-azam.jpg",
     "PlayerName": "Babar Azam",
     "PlayerCountry": "Pakistan",
     "PlayerType": "Batsman",
@@ -40,7 +40,7 @@
     "Price": 1180000
   },
   {
-    "PlayerImg": "https://example.com/images/ben_stokes.jpg",
+    "PlayerImg": "https://i.ibb.co.com/NgP8LNCm/ben-stokes.png",
     "PlayerName": "Ben Stokes",
     "PlayerCountry": "England",
     "PlayerType": "All-Rounder",
@@ -50,7 +50,7 @@
     "Price": 1250000
   },
   {
-    "PlayerImg": "https://example.com/images/kane_williamson.jpg",
+    "PlayerImg": "https://i.ibb.co.com/wZVQ7XW1/kane-williamson.png",
     "PlayerName": "Kane Williamson",
     "PlayerCountry": "New Zealand",
     "PlayerType": "Batsman",
