@@ -3,7 +3,7 @@ import React from 'react';
 
 const Player = ({player}) => {
     const {PlayerImg, PlayerName, PlayerCountry, PlayerType, rating, BattingStyle, BowlingStyle, Price} = player;
-    console.log(player);
+    // console.log(player);
     return (
         <div >
             <div className="card bg-base-100 shadow-lg">
