@@ -14,6 +14,8 @@ function App() {
   const playerPromise = fetchPlayer();
 
   const [coin, setCoin] = useState(50000);
+
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
   return (
     <>
       {/* <h2 className='text-2xl'>Hello React</h2> */}
@@ -21,7 +23,10 @@ function App() {
       <Banner></Banner>
 
       <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
-        <Players setCoin={setCoin} coin={coin} playerPromise={playerPromise}></Players>
+        <Players
+        setCoin={setCoin} coin={coin}
+        selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}
+        playerPromise={playerPromise}></Players>
       </Suspense>
 
     </>

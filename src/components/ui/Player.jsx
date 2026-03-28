@@ -1,7 +1,7 @@
 import { Flag, UserRound } from 'lucide-react';
 import React, { useState } from 'react';
 
-const Player = ({ player, setCoin, coin }) => {
+const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) => {
     const { PlayerImg, PlayerName, PlayerCountry, PlayerType, rating, BattingStyle, BowlingStyle, Price } = player;
     // console.log(player);
 
@@ -12,15 +12,17 @@ const Player = ({ player, setCoin, coin }) => {
 
         let newCoin = coin - Price;
         if(newCoin >= 0){
-            setCoin(coin - Price)
+            setCoin(coin - Price);
         }
         else{
             alert("Not available coins");
             return;
         }
 
-        alert(`${PlayerName} is selected`)
+        alert(`${PlayerName} is selected`);
         setIsSelected(true);
+
+        setSelectedPlayers([...selectedPlayers, player])
         
     }
     return (
