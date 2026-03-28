@@ -1,5 +1,6 @@
 import { Flag, UserRound } from 'lucide-react';
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) => {
     const { PlayerImg, PlayerName, PlayerCountry, PlayerType, rating, BattingStyle, BowlingStyle, Price } = player;
@@ -15,11 +16,12 @@ const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) 
             setCoin(coin - Price);
         }
         else{
-            alert("Not available coins");
+            toast.warn("Not enough coins to buy this player!");
             return;
         }
 
-        alert(`${PlayerName} is selected`);
+        toast.success(`${PlayerName} is selected`);
+
         setIsSelected(true);
 
         setSelectedPlayers([...selectedPlayers, player])
@@ -53,7 +55,7 @@ const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) 
                     </div>
 
 
-                    <div className="card-actions justify-between">
+                    <div className="card-actions justify-between items-center">
                         <p className='font-semibold'>Price: {Price}</p>
                         <button className="btn" onClick={() => handleChoosePlayer()} 
                         disabled={isSelected} >{isSelected ? "Selected" : "Choose Player"}</button>
