@@ -1,12 +1,14 @@
 import { Flag, UserRound } from 'lucide-react';
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
 const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) => {
     const { PlayerImg, PlayerName, PlayerCountry, PlayerType, rating, BattingStyle, BowlingStyle, Price } = player;
     // console.log(player);
 
-    const [isSelected, setIsSelected] = useState(false);
+    // const [isSelected, setIsSelected] = useState(false);
+
+    const isAdded = selectedPlayers.find(players => players.PlayerName === player.PlayerName);
 
     const handleChoosePlayer = () =>{
         
@@ -22,7 +24,7 @@ const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) 
 
         toast.success(`${PlayerName} is selected`);
 
-        setIsSelected(true);
+        // setIsSelected(true);
 
         setSelectedPlayers([...selectedPlayers, player])
         
@@ -57,8 +59,10 @@ const Player = ({ player, setCoin, coin, selectedPlayers, setSelectedPlayers }) 
 
                     <div className="card-actions justify-between items-center">
                         <p className='font-semibold'>Price: {Price}</p>
+                        {/* <button className="btn" onClick={() => handleChoosePlayer()} 
+                        disabled={isSelected} >{isSelected ? "Selected" : "Choose Player"}</button> */}
                         <button className="btn" onClick={() => handleChoosePlayer()} 
-                        disabled={isSelected} >{isSelected ? "Selected" : "Choose Player"}</button>
+                        disabled={isAdded} >{isAdded ? "Selected" : "Choose Player"}</button>
                     </div>
                 </div>
             </div>
